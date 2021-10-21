@@ -12,3 +12,5 @@ https://jlusa101.github.io/run-buddy/
 
 ## Contribution
 Made with ❤️ by Joona Lusa
+
+### ©️2019 Run Buddy, Inc 
