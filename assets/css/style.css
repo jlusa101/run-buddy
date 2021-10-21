@@ -1,7 +1,7 @@
 * {
+    box-sizing: border-box;
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -78,24 +78,6 @@ footer a {
     color: #024e76;
 }
 
-.hero {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    background-image: url("../images/flipped-hero-image.jpg");
-    background-size: cover;
-    background-position: center;
-}
-
-.hero-form {
-    color: #024e76;
-    background-color: #fce138;
-    padding: 20px;
-    border: solid 3px #024e76;
-    width: 40%;
-    margin: 3.5%;
-}
-
 .hero-cta {
     width: 35%;
     text-align: right;
@@ -109,6 +91,24 @@ footer a {
     font-style: italic;
     font-size: 55px;
     color: #fce138;
+}
+
+.hero {
+    background-image: url("../images/flipped-hero-image.jpg");
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.hero-form {
+    color: #024e76;
+    background-color: #fce138;
+    padding: 20px;
+    border: 3px solid #024e76;
+    width: 40%;
+    margin: 3.5%;
 }
 
 .hero-form h3 {
@@ -142,30 +142,27 @@ footer a {
     font-size: 16px;
 }
 
-.intro {
-    text-align: center;
-}
-
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
     width: 80%;
     font-size: 20px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .steps {
-    text-align: center;
     background-color: #fce138;
 }
 
 .section-title {
     font-size: 55px;
     color: #024e76;
-    margin-bottom: 35px;
-    padding: 0 100px 20px 100px;
-    display: inline-block;
     border-bottom: 3px solid;
+    padding-bottom: 20px;
+    text-align: center;
+    margin: 0 auto 35px auto;
+    width: 50%;
 }
 
 .primary-border {
@@ -200,9 +197,7 @@ footer a {
     font-size: 38px;
 }
 
-.trainers {
-    text-align: center;
-}
+.trainers {}
 
 .trainer {
     width: 900px;
@@ -223,14 +218,6 @@ footer a {
     width: 65%;
 }
 
-.text-left {
-    text-align: left;
-}
-
-.text-right {
-    text-align: right;
-}
-
 .trainer-bio h3 {
     font-size: 32px;
     margin-bottom: 8px;
@@ -249,7 +236,6 @@ footer a {
 
 .contact {
     background: #024e76;
-    text-align: center;
 }
 
 .contact h2 {
@@ -285,4 +271,16 @@ footer a {
 
 .contact-info a {
     color: #fce138;
+}
+
+.text-left {
+    text-align: left;
+}
+
+.text-right {
+    text-align: right;
+}
+
+.flex-row {
+    display: flex;
 }
