@@ -10,7 +10,7 @@ body {
 }
 
 
-/* apply styles to <header> element */
+/* HEADER element */
 
 header {
     padding: 20px 35px;
@@ -54,6 +54,9 @@ section {
     padding: 60px;
 }
 
+
+/* FOOTER elements */
+
 footer {
     display: flex;
     justify-content: space-between;
@@ -77,6 +80,9 @@ footer div {
 footer a {
     color: #024e76;
 }
+
+
+/* HERO elements */
 
 .hero-cta {
     width: 35%;
@@ -142,6 +148,9 @@ footer a {
     font-size: 16px;
 }
 
+
+/* What-we-do */
+
 .intro p {
     line-height: 1.7;
     color: #39a6b2;
@@ -150,6 +159,9 @@ footer a {
     margin: 0 auto;
     text-align: center;
 }
+
+
+/* STEPS */
 
 .steps {
     background-color: #fce138;
@@ -163,14 +175,6 @@ footer a {
     text-align: center;
     margin: 0 auto 35px auto;
     width: 50%;
-}
-
-.primary-border {
-    border-color: #fce138;
-}
-
-.secondary-border {
-    border-color: #39a6b2;
 }
 
 .step {
@@ -221,42 +225,49 @@ footer a {
     max-width: 100%;
 }
 
-.trainers {}
+
+/* TRAINERS */
+
+.trainers {
+    width: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
 
 .trainer {
-    width: 900px;
-    margin: 0 auto 30px auto;
+    margin: 20px;
     background: #024e76;
     color: #fce138;
-    overflow: auto;
+    flex: 1;
 }
 
 .trainer img {
-    width: 35%;
-    float: left;
+    width: 100%;
 }
 
 .trainer-bio {
-    padding: 35px;
-    float: left;
-    width: 65%;
+    padding: 25px;
+    line-height: 1.3;
 }
 
 .trainer-bio h3 {
-    font-size: 32px;
-    margin-bottom: 8px;
+    font-size: 28px;
 }
 
 .trainer.bio h4 {
     font-weight: lighter;
-    font-size: 26px;
-    margin-bottom: 25px;
+    font-size: 22px;
+    margin-bottom: 15px;
 }
 
 .trainer-bio p {
     font-size: 17px;
-    line-height: 1.3;
 }
+
+
+/* CONTACT */
 
 .contact {
     background: #024e76;
@@ -299,6 +310,14 @@ footer a {
 
 
 /* Utility Selectors */
+
+.primary-border {
+    border-color: #fce138;
+}
+
+.secondary-border {
+    border-color: #39a6b2;
+}
 
 .text-left {
     text-align: left;
